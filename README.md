@@ -2,6 +2,30 @@
 
 > Reasonable file structure of a vue project.
 
+```
+src
+├── api  functions used to fetch data from server
+│   └── goods.js
+├── App.vue
+├── assets
+│   └── logo.png
+├── components  component can't be divide further like atom.
+├── config
+│   └── config.js
+├── layouts  layout is arrangement of components like molecular.
+│   └── BasicLayout.vue
+├── main.js  entry
+├── router  font-end router
+│   └── index.js
+├── store  vuex store examples
+│   ├── index.js
+│   └── modules
+│       ├── goods.js
+│       └── index.js
+└── utils
+    └── request.js  intercept all request here.
+```
+
 ## Build Setup
 
 ``` bash
